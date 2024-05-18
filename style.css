@@ -97,7 +97,7 @@ span{
 .bar1 {
     height: 25px;
     border-radius: 20px;
-    background-color: var(--Very_Dark_Blue);
+    background-color: hsla(229, 57%, 11%, 0.3);
 }
 
 .bar2 {
