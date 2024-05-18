@@ -12,7 +12,7 @@
     .info {
         width: 100%;
         grid-template-columns: 36% 62%;
-        align-items: baseline;
+        align-items: end;
     }
 
     .one {
@@ -21,14 +21,14 @@
     }
 
     .two {
-        gap: 23px;
+        gap: 14px;
         padding: 35px;
         text-align: left;
     }
 
     .data-left {
         left: 55%;
-        top: -30px;
+        top: -45px;
         width: 158px;
         height: 58px;
         padding: 14px 1px;
