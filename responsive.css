@@ -11,7 +11,8 @@
     
     .info {
         width: 100%;
-        grid-template-columns: 36% 62%;
+        grid-template-columns: 38% 58%;
+        gap: 30px;
         align-items: end;
     }
 
