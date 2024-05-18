@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+:root {
+    /* -Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%) */
+
+ /* Neutral */
+
+--Pale_Blue: hsl(243, 100%, 93%);
+--Grayish_Blue: hsl(229, 7%, 55%);
+--Dark_Blue: hsl(228, 56%, 26%);
+--Very_Dark_Blue: hsl(229, 57%, 11%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Very_Dark_Blue) url(images/bg-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.card {
+    /* border: 2px solid red; */
+    width: 80vw;
+}
+.info {
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: 100%;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+
+.one, .two {
+    background-color: var(--Dark_Blue);
+}
+
+.one {
+    display: grid;
+    gap: 30px;
+    padding: 25px;
+    border-radius: 8px;
+    border-top-right-radius: 115px;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+
+.icons img {
+    background-color: var(--Very_Dark_Blue);
+    border-radius: 8px;
+}
+
+#img-1 {
+    padding: 10px;
+}
+
+#img-2 {
+    padding: 12px 10px;
+}
+
+#img-3 {
+    padding: 14px 10px;
+}
+
+.two {
+    padding: 25px;
+    color: var(--Pale_Blue);
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+span{ 
+    font-weight: 700;
+}
+
+.bars {
+    position: relative;
+}
+
+.bar1 {
+    height: 25px;
+    border-radius: 20px;
+    background-color: var(--Very_Dark_Blue);
+}
+
+.bar2 {
+    border-radius: 20px;
+    position: absolute;
+    width: 75%;
+    top: 3.5px;
+    height: 18px;
+    left: 3px;
+    background: linear-gradient(0.25turn, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    right: 3px;
+}
+
+.data {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+.data-left {
+    background-color: #fff;
+    padding: 14px 30px;
+    font-size: 35px;
+    color: var(--Very_Dark_Blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: -55px;
+    left: 28%;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.data-left span {
+    font-size: 14px;
+    color: var(--Grayish_Blue);
+}

@@ -1,0 +1,56 @@
+@media screen and (min-width: 775px) {
+
+    body {
+        background: var(--Very_Dark_Blue) url(images/bg-desktop.png) no-repeat bottom;
+        background-size: 100% 52%;
+    }
+    
+    .card {
+        width: 90vw;
+    }
+    
+    .info {
+        width: 100%;
+        grid-template-columns: 35% 63%;
+        align-items: baseline;
+    }
+
+    .one {
+        gap: 35px;
+        padding: 45px;
+    }
+
+    .two {
+        gap: 23px;
+        padding: 35px;
+    }
+
+    .data-left {
+        left: 39%;
+        top: -90px;
+        width: 240px;
+        height: 100px;
+        border-bottom-right-radius: 0;
+    }
+
+    .data-left::after {
+        position: absolute;
+        content: '';
+        bottom: -49px;
+        right: 0;
+        /* border-right: 15px solid transparent; */
+        border-right: 60px solid white;
+        border-bottom: 50px solid transparent;
+    }
+}
+
+@media screen and (min-width: 885px ) {
+    .card {
+        width: 850px;
+    }
+    
+    .data-left {
+        left: 48%;
+    }
+
+}
