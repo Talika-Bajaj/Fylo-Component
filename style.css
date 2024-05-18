@@ -48,7 +48,7 @@ body {
     gap: 30px;
     padding: 25px;
     border-radius: 8px;
-    border-top-right-radius: 115px;
+    border-top-right-radius: 100px;
 }
 
 .icons {
@@ -63,15 +63,15 @@ body {
 }
 
 #img-1 {
-    padding: 10px;
+    padding: 12px 11px;
 }
 
 #img-2 {
-    padding: 12px 10px;
+    padding: 14px 11px;
 }
 
 #img-3 {
-    padding: 14px 10px;
+    padding: 16px 11px;
 }
 
 .two {
@@ -97,7 +97,7 @@ span{
 .bar1 {
     height: 25px;
     border-radius: 20px;
-    background-color: hsla(229, 57%, 11%, 0.3);
+    background-color: hsla(229, 57%, 11%, 0.5);
 }
 
 .bar2 {

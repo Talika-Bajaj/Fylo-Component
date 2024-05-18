@@ -30,8 +30,8 @@
     .data-left {
         left: 55%;
         top: -45px;
-        width: 158px;
-        height: 58px;
+        width: 168px;
+        height: 63px;
         padding: 14px 1px;
         border-bottom-right-radius: 0;
     }
@@ -58,7 +58,7 @@
     }
     
     .data-left {
-        left: 68%;
+        left: 66%;
     }
 
 }
